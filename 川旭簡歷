@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>黃川旭 | 個人履歷</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; }
+    header { background:#1e3a8a; color:#fff; padding:2rem; text-align:center; }
+    nav a { margin:0 15px; color:#fff; text-decoration:none; }
+    section { padding:2rem; max-width:900px; margin:auto; }
+    h2 { border-bottom:2px solid #1e3a8a; padding-bottom:5px; }
+    .card { background:#fff; padding:1rem; margin:1rem 0; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    footer { text-align:center; padding:1rem; background:#1e3a8a; color:#fff; margin-top:2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>黃川旭</h1>
+    <p>立志用科技與管理解決問題的學習者</p>
+    <nav>
+      <a href="#about">關於我</a>
+      <a href="#skills">技能</a>
+      <a href="#projects">作品</a>
+      <a href="#resume">履歷</a>
+      <a href="#contact">聯絡方式</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>關於我</h2>
+    <p>我是一名來自彰化的學生，目前申請管院與資訊相關科系。在有限的資源下努力學習，曾完成行銷分析報告、Arduino 小專案，以及 Python 工具開發，期望未來能結合管理與科技，回饋社會。</p>
+  </section>
+
+  <section id="skills">
+    <h2>技能</h2>
+    <div class="card">程式語言：Python、HTML/CSS/JavaScript</div>
+    <div class="card">工具：Git、Excel、PowerPoint</div>
+    <div class="card">語言：中文（母語）、英文（持續加強）</div>
+  </section>
+
+  <section id="projects">
+    <h2>作品</h2>
+    <div class="card">📊 行銷報告：《傳說對決》 SWOT、4P、五力分析</div>
+    <div class="card">💡 Arduino 小專案：LED 燈閃爍、特斯拉線圈</div>
+    <div class="card">🐍 Python：Leitner 閃卡、Web 爬蟲</div>
+  </section>
+
+  <section id="resume">
+    <h2>履歷</h2>
+    <p><a href="resume.pdf" target="_blank">下載 PDF 履歷</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡方式</h2>
+    <p>Email: <a href="mailto:ken822815@gmail.com">ken822815@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 黃川旭</p>
+  </footer>
+</body>
+</html>
